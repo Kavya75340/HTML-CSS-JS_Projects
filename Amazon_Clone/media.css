@@ -1,0 +1,78 @@
+
+
+.laaaaan{
+    display: flex;
+    position: absolute;
+    top:40px;
+    border: 1px solid black;
+    width: 230px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+
+  clip-path: polygon(0% 100.3%, 100.1% 100.3%, 100.1% 5%, 16.1% 5%, 14% 2%, 11.2% 5%, 0% 5%);
+
+}
+span{
+    display: flex;
+    margin-top: 5px;
+}
+.checkbox{
+    display: flex;
+    margin-right: 10px;
+    height: 15px;
+    object-fit: contain;
+    border-radius: 10px;
+    width: 15px;
+    border: 1px solid black;
+}
+.languages_choice{
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.change_language{
+    color: black;
+    font-size: medium;
+}
+.Learn{
+    margin-left: 10px;
+    font-size: small;
+}
+.languages_choice:hover{
+    .checkbox_dot{
+        display: block;
+        margin: auto;
+        background-color: orange;
+        height: 8px;
+        width: 8px;
+        border-radius: 10px;
+    }
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+
+}
+
+.llaan{
+    color: black;
+        position:absolute;
+        top:1210px;
+        left: 520px;
+        border: 1px solid black;
+        width: 230px;
+        height: 300px;
+        padding-top: 10px;
+        padding-left: 10px;
+        text-align: start;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+    
+      clip-path: polygon(0% 100.3%, 100.1% 100.3%, 100.1% 5%, 16.1% 5%, 14% 2%, 11.2% 5%, 0% 5%);
+}
