@@ -1,0 +1,64 @@
+table{
+     
+    border-radius: 10px;   
+}
+table,tr,td{
+    padding: 10px;
+}
+
+input[type=text]{
+    width: 400px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 2rem;
+
+}
+.operation{
+    background-color: rgb(255, 115, 0);
+}
+.operation:hover{
+    background-color: rgb(228, 102, 0);
+}
+
+input[type=text]:focus{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#Equal{
+    border: 0px solid;
+    border-radius: 40px;
+    height: 150px;
+    width: 80px;
+}
+
+.main_box{
+
+    background-color: rgb(90, 88, 88);
+}
+.normal_button,.operation{
+    border: 0px solid white;
+    border-radius: 40px;
+    width: 80px;
+    height: 70px;
+}
+#Clear_button{
+    border: 0px solid white;
+    border-radius: 40px;
+    width: 200px;
+    height: 70px;
+
+}
+div{
+    width: auto;
+    height: auto;
+}
+button{
+    background-color: rgb(210, 210, 210);
+}
+button:hover{
+    background-color: white;
+}

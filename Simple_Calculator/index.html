@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <center>
+        <div>
+            <table class="main_box">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="result" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" value="%" onclick="inputvalue('%')" class="operation">%</button>
+                    </td>
+                    <td>
+                        <button type="button" value="*" onclick="inputvalue('*')" class="operation">x</button>
+                    </td>
+                    <td>
+                        <button type="button" value="-" onclick="inputvalue('-')" class="operation">-</button>
+                    </td>
+                    <td>
+                        <button type="button" value="+" onclick="inputvalue('+')" class="operation">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" value="7" onclick="inputvalue('7')" class="normal_button">7</button>
+                    </td>
+                    <td>
+                        <button type="button" value="8" onclick="inputvalue('8')" class="normal_button">8</button>
+                    </td>
+                    <td>
+                        <button type="button" value="9" onclick="inputvalue('9')" class="normal_button">9</button>
+                    </td>
+                    <td>
+                        <button type="button" value="/" onclick="inputvalue('/')" class="operation">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" value="4" onclick="inputvalue('4')" class="normal_button">4</button>
+                    </td>
+                    <td>
+                        <button type="button" value="5" onclick="inputvalue('5')" class="normal_button">5</button>
+                    </td>
+                    <td>
+                        <button type="button" value="6" onclick="inputvalue('6')" class="normal_button">6</button>
+                    </td>
+                    <td rowspan="2">
+                        <button type="button" value="=" onclick="CalculateResult('=')" id="Equal"
+                            class="operation">=</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" value="1" onclick="inputvalue('1')" class="normal_button">1</button>
+                    </td>
+                    <td>
+                        <button type="button" value="2" onclick="inputvalue('2')" class="normal_button">2</button>
+                    </td>
+                    <td>
+                        <button type="button" value="3" onclick="inputvalue('3')" class="normal_button">3</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" value="0" onclick="inputvalue('0')" class="normal_button">0</button>
+                    </td>
+                    <td>
+                        <button type="button" value="." onclick="inputvalue('.')" class="normal_button">.</button>
+                    </td>
+                    <td colspan="2">
+                        <button type="reset" value="reset" onclick="clearResult()" id="Clear_button">AC</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <script src="calcu.js"></script>
+</body>
+
+</html>
